@@ -16,6 +16,10 @@ import javax.swing.JPanel;
  */
 public class DrawTriangle extends JFrame {
 
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 5446658007237607067L;
     /** Width of the screen. **/
     private final int width = 800;
     /** Length of the screen. **/
@@ -42,6 +46,10 @@ public class DrawTriangle extends JFrame {
     private class DrawTrianglePanel extends JPanel implements MouseListener, 
         MouseMotionListener {
 
+        /**
+         * 
+         */
+        private static final long serialVersionUID = 3245993989008933404L;
         /** The Triangle object to be added to the screen. **/
         private Triangle triangle;
 

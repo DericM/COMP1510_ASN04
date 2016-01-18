@@ -20,6 +20,10 @@ import javax.swing.Timer;
  */
 public class StopWatch extends JFrame {
 
+    /**
+     * 
+     */
+    private static final long serialVersionUID = -5640465042942452267L;
     /** Width of the screen. **/
     private final int width = 300;
     /** Length of the screen. **/
@@ -47,6 +51,10 @@ public class StopWatch extends JFrame {
      * @version 1.0
      */
     private class StopWatchPanel extends JPanel {
+        /**
+         * 
+         */
+        private static final long serialVersionUID = 3708112439053723714L;
         /** Lable for the current time. **/
         private JLabel lable;
         /** Timer. **/
